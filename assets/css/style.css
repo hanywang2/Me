@@ -10,12 +10,12 @@
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 * Tags: html, themplate, Ela Admin
 --------------------------------------------------------- */
-/* 
+/*
 
 
 Googel Fonts  */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
-/* Googel Fonts End  
+/* Googel Fonts End
 
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
@@ -133,11 +133,11 @@ Googel Fonts  */
 .mb-15 {
   margin-bottom: 15px; }
 
-/* 
+/*
 
 
 Googel Fonts  */
-/* Googel Fonts End  
+/* Googel Fonts End
 
 */
 .bg-flat-color-1 {
@@ -863,7 +863,7 @@ aside.left-panel {
   -webkit-box-shadow: none;
           box-shadow: none;
   clear: both;
-  padding: 0 30px;
+  padding: 0 70px;
   height: 55px;
   position: fixed;
   left: 280px;
@@ -872,7 +872,7 @@ aside.left-panel {
   top: 0;
   z-index: 999; }
 .right-panel .navbar-brand {
-  width: 250px;
+  width: 200px;
   display: inline-block; }
 .right-panel .menutoggle {
   padding-top: 7px; }
@@ -2452,7 +2452,7 @@ footer.site-footer {
       z-index: 999;
       border-bottom: 1px solid #dcdcdc; }
     .right-panel header.header .top-right {
-      padding: 0 30px; }
+      padding: 0 70px; }
 
   .small-device .right-panel {
     margin-left: 0; }
@@ -2502,5 +2502,12 @@ footer.site-footer {
   #cellPaiChart #pieLabel0 {
     left: inherit !important;
     right: 20px !important; }
+
+/* PERSONAL CSS */
+
+.logo {
+  height: 38px;
+}
+
 
 /*# sourceMappingURL=style.css.map */
