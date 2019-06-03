@@ -1341,7 +1341,7 @@ header .form-inline {
     width: 40%; }
   .card .card-body {
     float: left;
-    padding: 1.25em;
+    padding: 1em;
     position: relative;
     width: 100%; }
   .card h4 {
