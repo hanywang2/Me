@@ -126,363 +126,12 @@
 
                       <div class="col-md-12">
                           <div class="card">
-                              <div class="card-header">
-                                  <strong class="card-title">Data Table</strong>
+                              <div class="card-header pb-0">
+                                  <strong class="card-title float-left">Data Table</strong>
+                                  <a href="#export" onclick="exportTableToCSV('data.csv')"><i style="font-size:20px;" class="fa fa-download float-right"></i></a>
                               </div>
                               <div class="card-body">
-                                  <table id="bootstrap-data-table" class="table table-striped table-bordered">
-                                      <thead>
-                                          <tr>
-                                              <th>Name</th>
-                                              <th>Position</th>
-                                              <th>Office</th>
-                                              <th>Salary</th>
-                                          </tr>
-                                      </thead>
-                                      <tbody>
-                                          <tr>
-                                              <td>Tiger Nixon</td>
-                                              <td>System Architect</td>
-                                              <td>Edinburgh</td>
-                                              <td>$320,800</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Garrett Winters</td>
-                                              <td>Accountant</td>
-                                              <td>Tokyo</td>
-                                              <td>$170,750</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Ashton Cox</td>
-                                              <td>Junior Technical Author</td>
-                                              <td>San Francisco</td>
-                                              <td>$86,000</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Cedric Kelly</td>
-                                              <td>Senior Javascript Developer</td>
-                                              <td>Edinburgh</td>
-                                              <td>$433,060</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Airi Satou</td>
-                                              <td>Accountant</td>
-                                              <td>Tokyo</td>
-                                              <td>$162,700</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Brielle Williamson</td>
-                                              <td>Integration Specialist</td>
-                                              <td>New York</td>
-                                              <td>$372,000</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Herrod Chandler</td>
-                                              <td>Sales Assistant</td>
-                                              <td>San Francisco</td>
-                                              <td>$137,500</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Rhona Davidson</td>
-                                              <td>Integration Specialist</td>
-                                              <td>Tokyo</td>
-                                              <td>$327,900</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Colleen Hurst</td>
-                                              <td>Javascript Developer</td>
-                                              <td>San Francisco</td>
-                                              <td>$205,500</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Sonya Frost</td>
-                                              <td>Software Engineer</td>
-                                              <td>Edinburgh</td>
-                                              <td>$103,600</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Jena Gaines</td>
-                                              <td>Office Manager</td>
-                                              <td>London</td>
-                                              <td>$90,560</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Quinn Flynn</td>
-                                              <td>Support Lead</td>
-                                              <td>Edinburgh</td>
-                                              <td>$342,000</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Charde Marshall</td>
-                                              <td>Regional Director</td>
-                                              <td>San Francisco</td>
-                                              <td>$470,600</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Haley Kennedy</td>
-                                              <td>Senior Marketing Designer</td>
-                                              <td>London</td>
-                                              <td>$313,500</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Tatyana Fitzpatrick</td>
-                                              <td>Regional Director</td>
-                                              <td>London</td>
-                                              <td>$385,750</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Michael Silva</td>
-                                              <td>Marketing Designer</td>
-                                              <td>London</td>
-                                              <td>$198,500</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Paul Byrd</td>
-                                              <td>Chief Financial Officer (CFO)</td>
-                                              <td>New York</td>
-                                              <td>$725,000</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Gloria Little</td>
-                                              <td>Systems Administrator</td>
-                                              <td>New York</td>
-                                              <td>$237,500</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Bradley Greer</td>
-                                              <td>Software Engineer</td>
-                                              <td>London</td>
-                                              <td>$132,000</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Dai Rios</td>
-                                              <td>Personnel Lead</td>
-                                              <td>Edinburgh</td>
-                                              <td>$217,500</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Jenette Caldwell</td>
-                                              <td>Development Lead</td>
-                                              <td>New York</td>
-                                              <td>$345,000</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Yuri Berry</td>
-                                              <td>Chief Marketing Officer (CMO)</td>
-                                              <td>New York</td>
-                                              <td>$675,000</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Caesar Vance</td>
-                                              <td>Pre-Sales Support</td>
-                                              <td>New York</td>
-                                              <td>$106,450</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Doris Wilder</td>
-                                              <td>Sales Assistant</td>
-                                              <td>Sidney</td>
-                                              <td>$85,600</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Angelica Ramos</td>
-                                              <td>Chief Executive Officer (CEO)</td>
-                                              <td>London</td>
-                                              <td>$1,200,000</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Gavin Joyce</td>
-                                              <td>Developer</td>
-                                              <td>Edinburgh</td>
-                                              <td>$92,575</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Jennifer Chang</td>
-                                              <td>Regional Director</td>
-                                              <td>Singapore</td>
-                                              <td>$357,650</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Brenden Wagner</td>
-                                              <td>Software Engineer</td>
-                                              <td>San Francisco</td>
-                                              <td>$206,850</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Fiona Green</td>
-                                              <td>Chief Operating Officer (COO)</td>
-                                              <td>San Francisco</td>
-                                              <td>$850,000</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Shou Itou</td>
-                                              <td>Regional Marketing</td>
-                                              <td>Tokyo</td>
-                                              <td>$163,000</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Michelle House</td>
-                                              <td>Integration Specialist</td>
-                                              <td>Sidney</td>
-                                              <td>$95,400</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Suki Burks</td>
-                                              <td>Developer</td>
-                                              <td>London</td>
-                                              <td>$114,500</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Prescott Bartlett</td>
-                                              <td>Technical Author</td>
-                                              <td>London</td>
-                                              <td>$145,000</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Gavin Cortez</td>
-                                              <td>Team Leader</td>
-                                              <td>San Francisco</td>
-                                              <td>$235,500</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Martena Mccray</td>
-                                              <td>Post-Sales support</td>
-                                              <td>Edinburgh</td>
-                                              <td>$324,050</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Unity Butler</td>
-                                              <td>Marketing Designer</td>
-                                              <td>San Francisco</td>
-                                              <td>$85,675</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Howard Hatfield</td>
-                                              <td>Office Manager</td>
-                                              <td>San Francisco</td>
-                                              <td>$164,500</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Hope Fuentes</td>
-                                              <td>Secretary</td>
-                                              <td>San Francisco</td>
-                                              <td>$109,850</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Vivian Harrell</td>
-                                              <td>Financial Controller</td>
-                                              <td>San Francisco</td>
-                                              <td>$452,500</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Timothy Mooney</td>
-                                              <td>Office Manager</td>
-                                              <td>London</td>
-                                              <td>$136,200</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Jackson Bradshaw</td>
-                                              <td>Director</td>
-                                              <td>New York</td>
-                                              <td>$645,750</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Olivia Liang</td>
-                                              <td>Support Engineer</td>
-                                              <td>Singapore</td>
-                                              <td>$234,500</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Bruno Nash</td>
-                                              <td>Software Engineer</td>
-                                              <td>London</td>
-                                              <td>$163,500</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Sakura Yamamoto</td>
-                                              <td>Support Engineer</td>
-                                              <td>Tokyo</td>
-                                              <td>$139,575</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Thor Walton</td>
-                                              <td>Developer</td>
-                                              <td>New York</td>
-                                              <td>$98,540</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Finn Camacho</td>
-                                              <td>Support Engineer</td>
-                                              <td>San Francisco</td>
-                                              <td>$87,500</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Serge Baldwin</td>
-                                              <td>Data Coordinator</td>
-                                              <td>Singapore</td>
-                                              <td>$138,575</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Zenaida Frank</td>
-                                              <td>Software Engineer</td>
-                                              <td>New York</td>
-                                              <td>$125,250</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Zorita Serrano</td>
-                                              <td>Software Engineer</td>
-                                              <td>San Francisco</td>
-                                              <td>$115,000</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Jennifer Acosta</td>
-                                              <td>Junior Javascript Developer</td>
-                                              <td>Edinburgh</td>
-                                              <td>$75,650</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Cara Stevens</td>
-                                              <td>Sales Assistant</td>
-                                              <td>New York</td>
-                                              <td>$145,600</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Hermione Butler</td>
-                                              <td>Regional Director</td>
-                                              <td>London</td>
-                                              <td>$356,250</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Lael Greer</td>
-                                              <td>Systems Administrator</td>
-                                              <td>London</td>
-                                              <td>$103,500</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Jonas Alexander</td>
-                                              <td>Developer</td>
-                                              <td>San Francisco</td>
-                                              <td>$86,500</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Shad Decker</td>
-                                              <td>Regional Director</td>
-                                              <td>Edinburgh</td>
-                                              <td>$183,000</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Michael Bruce</td>
-                                              <td>Javascript Developer</td>
-                                              <td>Singapore</td>
-                                              <td>$183,000</td>
-                                          </tr>
-                                          <tr>
-                                              <td>Donna Snider</td>
-                                              <td>Customer Support</td>
-                                              <td>New York</td>
-                                              <td>$112,000</td>
-                                          </tr>
-                                      </tbody>
+                                  <table id="bootstrap-data-table" class="table table-hover">
                                   </table>
                               </div>
                           </div>
@@ -538,6 +187,7 @@
                                     </div>
                                 </form>
                             </div>
+                            <a id="dlink"  style="display:none;"></a>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Close</button>
                                 <button type="button" class="btn btn-danger waves-effect waves-light save-category" data-dismiss="modal">Save</button>
@@ -571,10 +221,83 @@
     <script src="https://cdn.jsdelivr.net/npm/chartist@0.11.0/dist/chartist.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartist-plugin-legend@0.6.2/chartist-plugin-legend.min.js"></script>
 
+    <!--JQuery-->
     <script src="https://cdn.jsdelivr.net/npm/jquery.flot@0.8.3/jquery.flot.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flot-pie@1.0.0/src/jquery.flot.pie.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flot-spline@0.0.1/js/jquery.flot.spline.min.js"></script>
 
+    <!--Data Table-->
+    <script>
+
+      let headers = ['Id', 'Group', 'Time'];
+      let data = [[124,1,'3:15'],[456,2,'4:15'],[242,3,'5:24'],[452,2,'22:42']];
+
+      var html = '';
+      html += '<thead class="thead-dark"><tr>';
+
+      for (let h = 0; h < headers.length; h++) {
+        html += '<th>'+headers[h]+'</th>';
+      }
+
+      html += '</tr></thead><tbody>';
+
+      for (let x = 0; x < data.length; x++) {
+        html += '<tr>';
+          for (let y = 0; y < data[x].length; y++) {
+              html += '<td>'+data[x][y]+'</td>';
+          }
+        html += '</tr>';
+      }
+
+      html += '</tbody>';
+      document.getElementById("bootstrap-data-table").innerHTML = html;
+
+
+
+      function downloadCSV(csv, filename) {
+    var csvFile;
+    var downloadLink;
+
+    // CSV file
+    csvFile = new Blob([csv], {type: "text/csv"});
+
+    // Download link
+    downloadLink = document.createElement("a");
+
+    // File name
+    downloadLink.download = filename;
+
+    // Create a link to the file
+    downloadLink.href = window.URL.createObjectURL(csvFile);
+
+    // Hide download link
+    downloadLink.style.display = "none";
+
+    // Add the link to DOM
+    document.body.appendChild(downloadLink);
+
+    // Click download link
+    downloadLink.click();
+}
+
+      function exportTableToCSV(filename) {
+        var csv = [];
+        var rows = document.querySelectorAll("table tr");
+
+        for (var i = 0; i < rows.length; i++) {
+          var row = [], cols = rows[i].querySelectorAll("td, th");
+
+          for (var j = 0; j < cols.length; j++)
+              row.push(cols[j].innerText);
+
+              csv.push(row.join(","));
+            }
+
+        // Download CSV file
+        downloadCSV(csv.join("\n"), filename);
+      }
+
+    </script>
 
     <script src="assets/js/lib/data-table/datatables.min.js"></script>
     <script src="assets/js/lib/data-table/dataTables.bootstrap.min.js"></script>
@@ -587,13 +310,12 @@
     <script src="assets/js/lib/data-table/buttons.colVis.min.js"></script>
     <script src="assets/js/init/datatables-init.js"></script>
 
-    <!--Local Stuff-->
-    <script>
 
-    //Data Table
+    <script>
     $(document).ready(function() {
       $('#bootstrap-data-table-export').DataTable();
     });
     </script>
+
 </body>
 </html>
